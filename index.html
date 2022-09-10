@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>App Calculator</title>
+</head>
+<body>
+    <header>
+        <h1>Online Calculator</h1>
+    </header>
+    <main class="main-content">
+        <form class="form" id="form">
+            <div class="input-text">
+                <input type="text" class="input" id="input" placeholder="0" autofocus autocomplete="off">
+            </div>
+            <div class="btn-row">
+                <div class="btn-col">
+                    <button type="reset" value="clear" data-type="clear" class="btn-blue" >C</button>
+                    <button value="/" data-type="operator" class="btn-blue" >/</button>
+                    <button value="*" data-type="operator" class="btn-blue" >✖</button>
+                    <button type="erase" value="erase" data-type="erase" class="btn-blue" >Del</button>
+                </div>
+            </div>
+            <div class="btn-row">    
+                <div class="btn-col">
+                    <button data-type="number" value="7" class="btn-white">7</button>
+                    <button data-type="number" value="8" class="btn-white">8</button>
+                    <button data-type="number" value="9" class="btn-white">9</button>
+                    <button data-type="operator" value="-" class="btn-blue">-</button>
+                </div>
+            </div>
+            <div class="btn-row">    
+                <div class="btn-col">
+                    <button data-type="number" value="4" class="btn-white">4</button>
+                    <button data-type="number" value="5" class="btn-whie">5</button>
+                    <button data-type="number" value="6" class="btn-white">6</button>
+                    <button data-type="operator" value="+" class="btn-blue">+</button>
+                </div>
+            </div>
+            <div class="btn-row">    
+                <div class="btn-col">
+                    <button data-type="number" value="1" class="btn-white">1</button>
+                    <button data-type="number" value="2" class="btn-whie">2</button>
+                    <button data-type="number" value="3" class="btn-white">3</button>
+                    <button data-type="operator" value="=" class="btn-blue">=</button>
+                </div>
+            </div>
+            <div class="btn-row">    
+                <div class="btn-col">
+                    <button data-type="operator" value="%" class="btn-blue">%</button>
+                    <button data-type="number" value="." class="btn-blue">.</button>
+                    <button data-type="number" value="0" class="btn-white grow">0</button>
+                </div>
+            </div>
+        </form>
+
+    </main>
+  <script src="calc.js"></script>  
+</body>
+</html>
