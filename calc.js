@@ -3,7 +3,6 @@ const form = document.querySelector('#form');
 const numberEl = document.querySelectorAll('button[data-type=number]');
 const operatorBtn = document.querySelectorAll('button[data-type=operator]');
 const deleteBtn = document.querySelector('button[data-type=erase]');
-const delete = input.value.splice(0, -1)
 //function to prevent the form from submitting
 form.addEventListener('submit', (e) =>{
     e.preventDefault();
